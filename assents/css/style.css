@@ -1,10 +1,40 @@
-@font-face {
+/* @font-face {
     font-family: "Vazir";
     src: url('/assents/vazir-font-v18.0.0/Vazir.eot') format('eot'), url('/assents/vazir-font-v18.0.0/Vazir.woff') format('woff'), url('/assents/vazir-font-v18.0.0/Vazir.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 * {
-    direction: rtl;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.backgruond {
+    background-image: url(/assents/img/8881702546447341.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 62rem;
+}
+
+.welcome {
+    padding-right: 950px;
+    padding-top: 400px;
+    font-size: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    left: 0px;
+    margin-right: 400px;
+}
+
+.backgruondmini {
+    background-image: url(/assents/img/1702546447341.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 60rem;
 }
