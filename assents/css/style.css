@@ -1,148 +1,146 @@
-                    /* @font-face {
-    font-family: "Vazir";
-    src: url('/assents/vazir-font-v18.0.0/Vazir.eot') format('eot'), url('/assents/vazir-font-v18.0.0/Vazir.woff') format('woff'), url('/assents/vazir-font-v18.0.0/Vazir.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
-                    
-                    * {
-                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                    }
-                    
-                    .backgruond {
-                        background-image: url(/assents/img/8881702546447341.jpg);
-                        background-repeat: no-repeat;
-                        background-attachment: scroll;
-                        background-size: cover;
-                        background-position: center;
-                        height: 60rem;
-                        z-index: 1;
-                    }
-                    
-                    .welcome {
-                        padding-right: 940px;
-                        padding-top: 460px;
-                        font-size: 30px;
-                        padding-left: 60px;
-                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                    }
-                    
-                    .logo {
-                        left: 0px;
-                        margin-right: 350px;
-                    }
-                    
-                    .backgruondmini {
-                        background-image: url(/assents/img/1702546447341.jpg);
-                        background-repeat: no-repeat;
-                        background-attachment: scroll;
-                        background-size: cover;
-                        background-position: center;
-                        height: 60rem;
-                    }
-                    
-                    .btn {
-                        margin-right: 935px;
-                        height: 3rem;
-                        width: 14em;
-                        border: 3px solid #2979ff;
-                        border-radius: 30em;
-                        font-size: 25px;
-                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                        color: rgb(1, 10, 10);
-                        background-color: rgba(255, 255, 255, 0.699);
-                        box-shadow: 0px 0px 20px 0px #2979ff;
-                        transition: all ease 0.5s;
-                    }
-                    
-                    .btn:hover {
-                        background: #243046;
-                    }
-                    
-                    .welcomemini {
-                        padding-right: 19rem;
-                        padding-top: 25rem;
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    }
-                    
-                    .entermini {
-                        padding-right: 19rem;
-                    }
-                    
-                    .btnmini {
-                        height: 2em;
-                        width: 9em;
-                        border: 2px solid #2979ff;
-                        background-color: rgba(255, 255, 255, 0.699);
-                        border-radius: 3em;
-                        margin-top: 0rem;
-                        margin-right: 15rem;
-                        padding-top: 2px;
-                        box-shadow: 0px 0px 20px 0px #2979ff;
-                        transition: all ease 0.5s;
-                        left: 0px;
-                    }
-                    
-                    .btnmini:hover {
-                        background: #243046;
-                    }
-                    
-                    #menu {
-                        display: block;
-                        position: relative;
-                        z-index: 10;
-                        padding: 13px 20px 13px 20px;
-                        color: white;
-                        background: transparent;
-                        font-weight: 500;
-                        transition: all 0.25s ease-in-out;
-                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                    }
-                    
-                    #menu a {
-                        position: relative;
-                        z-index: 10;
-                        padding: 13px 20px 13px 20px;
-                        text-decoration: none;
-                        color: white;
-                        line-height: 1;
-                        background: transparent;
-                        transition: all 0.25s ease-in-out;
-                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                    }
-                    
-                    #menu>li:hover>a {
-                        background: #10507a9a;
-                        color: rgb(249, 251, 252);
-                        text-shadow: none;
-                        border-radius: 20px;
-                    }
-                    
-                    #menu li ul {
-                        position: absolute;
-                        left: -15px;
-                        z-index: 1;
-                        width: 200px;
-                        padding: 0;
-                        opacity: 0;
-                        visibility: hidden;
-                        border-bottom-left-radius: 4px;
-                        border-bottom-right-radius: 4px;
-                        background: transparent;
-                        overflow: hidden;
-                        transform-origin: 50% 0;
-                    }
-                    
-                    #menu li:hover ul {
-                        padding: 15px 0;
-                        background: rgba(0, 0, 0, 0.42);
-                        box-shadow: 0 8px 32px 0 rgba(22, 22, 22, 0.37);
-                        backdrop-filter: blur(3px);
-                        border: 1px solid rgba(225, 225, 225, 0.18);
-                        border-radius: 10px;
-                        opacity: 1;
-                        visibility: visible;
-                        animation-name: swingdown;
-                        animation-duration: 1s;
-                        animation-timing-function: ease;
-                    }
+.body {
+    height: 100vh;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.backgruond {
+    background-image: url(/assents/img/8881702546447341.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 60rem;
+    z-index: 1;
+}
+
+.welcome {
+    padding-right: 940px;
+    padding-top: 460px;
+    font-size: 30px;
+    padding-left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    left: 0px;
+    margin-right: 390px;
+}
+
+.backgruondmini {
+    background-image: url(/assents/img/1702546447341.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 60rem;
+}
+
+.btn {
+    margin-right: 920px;
+    height: 3rem;
+    width: 14em;
+    border: 3px solid #2979ff;
+    border-radius: 30em;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(1, 10, 10);
+    background-color: rgba(255, 255, 255, 0.699);
+    box-shadow: 0px 0px 20px 0px #2979ff;
+    transition: all ease 0.5s;
+    padding-bottom: 3rem;
+}
+
+.btn:hover {
+    background: #243046;
+}
+
+.welcomemini {
+    padding-right: 19rem;
+    padding-top: 25rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.entermini {
+    padding-right: 19rem;
+}
+
+.btnmini {
+    height: 2em;
+    width: 9em;
+    border: 2px solid #2979ff;
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 3em;
+    margin-top: 0rem;
+    margin-right: 15rem;
+    padding-top: 2px;
+    box-shadow: 0px 0px 20px 0px #2979ff;
+    transition: all ease 0.5s;
+    left: 0px;
+}
+
+.btnmini:hover {
+    background: #243046;
+}
+
+#menu {
+    display: block;
+    position: relative;
+    z-index: 10;
+    padding: 13px 20px 13px 20px;
+    color: white;
+    background: transparent;
+    font-weight: 500;
+    transition: all 0.25s ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#menu a {
+    position: relative;
+    z-index: 10;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 1;
+    background: transparent;
+    transition: all 0.25s ease-in-out;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu>li:hover>a {
+    background: #10507a9a;
+    color: rgb(249, 251, 252);
+    text-shadow: none;
+    border-radius: 20px;
+}
+
+#menu li ul {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    width: 200px;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: transparent;
+    overflow: hidden;
+    transform-origin: 50% 0;
+}
+
+#menu li:hover ul {
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.42);
+    box-shadow: 0 8px 32px 0 rgba(22, 22, 22, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(225, 225, 225, 0.18);
+    border-radius: 10px;
+    opacity: 1;
+    visibility: visible;
+    animation-name: swingdown;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
